@@ -1,0 +1,11 @@
+final int f = 10;
+final Point pnt = new Point(1, 2);
+
+
+ f = 10;// Trying to assign a value to a final variable will result in a compile-time error
+
+pnt.x = 2;
+pnt.y = 3;
+
+
+ pnt = new Point(1, 2);// Reassigning a final variable will result in a compile-time error
